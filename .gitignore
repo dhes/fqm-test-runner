@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log*
+package-lock.json
+
+# Output artifacts
+output/
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VS Code & JetBrains IDEs
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+
+cache/terminology/
+
+# Test artifacts (optional)
+# **/MeasureReport*.json

@@ -1,0 +1,3662 @@
+<Measure xmlns="http://hl7.org/fhir">
+   <meta>
+      <profile value="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm"></profile>
+      <profile value="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-measure-cqfm"></profile>
+      <profile value="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/executable-measure-cqfm"></profile>
+   </meta>
+   <text>
+      <status value="extensions"></status>
+      <div xmlns="http://www.w3.org/1999/xhtml"> 
+         <table class="grid dict">  
+            <tr> 
+               <th scope="row">
+                  <b>Url: </b>
+               </th> 
+               <td style="padding-left: 4px;">http://ecqi.healthit.gov/ecqms/Measure/PCSBMIScreenAndFollowUpFHIR</td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Version: </b>
+               </th> 
+               <td style="padding-left: 4px;">0.2.000</td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Identifier: </b>
+               </th> 
+               <td style="padding-left: 4px;"> 
+                  <p style="margin-bottom: 5px;"> 
+                     <b>type: </b> 
+                     <span></span> 
+                  </p>  
+                  <p style="margin-bottom: 5px;"> 
+                     <b>value: </b> 
+                     <span>CMS69FHIR</span> 
+                  </p> 
+               </td> 
+            </tr> 
+            <tr> 
+               <th scope="row">
+                  <b>Identifier: </b>
+               </th> 
+               <td style="padding-left: 4px;"> 
+                  <p style="margin-bottom: 5px;"> 
+                     <b>type: </b> 
+                     <span></span> 
+                  </p>  
+                  <p style="margin-bottom: 5px;"> 
+                     <b>value: </b> 
+                     <span>urn:uuid:5d929142-0109-4dc3-97b5-27c9296b3cf9</span> 
+                  </p> 
+               </td> 
+            </tr> 
+            <tr> 
+               <th scope="row">
+                  <b>Identifier: </b>
+               </th> 
+               <td style="padding-left: 4px;"> 
+                  <p style="margin-bottom: 5px;"> 
+                     <b>type: </b> 
+                     <span></span> 
+                  </p>  
+                  <p style="margin-bottom: 5px;"> 
+                     <b>value: </b> 
+                     <span>urn:uuid:1039b9aa-b444-4112-ad53-1a86e16f9fcc</span> 
+                  </p> 
+               </td> 
+            </tr> 
+            <tr> 
+               <th scope="row">
+                  <b>Identifier: </b>
+               </th> 
+               <td style="padding-left: 4px;"> 
+                  <p style="margin-bottom: 5px;"> 
+                     <b>type: </b> 
+                     <span></span> 
+                  </p>  
+                  <p style="margin-bottom: 5px;"> 
+                     <b>value: </b> 
+                     <span>69FHIR</span> 
+                  </p> 
+               </td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Name: </b>
+               </th> 
+               <td style="padding-left: 4px;">PCSBMIScreenAndFollowUpFHIR</td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Title: </b>
+               </th> 
+               <td style="padding-left: 4px;">Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up PlanFHIR</td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Status: </b>
+               </th> 
+               <td style="padding-left: 4px;">active</td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Experimental: </b>
+               </th> 
+               <td style="padding-left: 4px;">false</td> 
+            </tr>    
+            <tr> 
+               <th scope="row">
+                  <b>Date: </b>
+               </th> 
+               <td style="padding-left: 4px;">2023-08-30T17:03:11+00:00</td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Publisher: </b>
+               </th> 
+               <td style="padding-left: 4px;">Centers for Medicare &amp; Medicaid Services (CMS)</td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Description: </b>
+               </th> 
+               <td style="padding-left: 4px;">Percentage of patients aged 18 years and older with a BMI documented during the current encounter or during the measurement period AND who had a follow-up plan documented if BMI was outside of normal parameters</td> 
+            </tr>   
+            <tr> 
+               <th scope="row">
+                  <b>Use Context: </b>
+               </th> 
+               <td style="padding-left: 4px;"> 
+                  <table class="grid-dict"> 
+                     <tr>
+                        <th>
+                           <b>code</b>
+                        </th>
+                        <th>
+                           <b>value</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>program</td> 
+                        <td></td> 
+                     </tr> 
+                  </table> 
+               </td> 
+            </tr>   
+            <tr> 
+               <th scope="row">
+                  <b>Purpose: </b>
+               </th> 
+               <td style="padding-left: 4px;">UNKNOWN</td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Guidance (Usage): </b>
+               </th> 
+               <td style="padding-left: 4px;">BMI Measurement Guidance:
+-  Height and Weight - An eligible professional or their staff is required to measure both height and weight. Both height and weight must be measured during the measurement period. Self-reported values cannot be used. -  The BMI may be documented in the medical record of the provider or in outside medical records obtained by the provider. 
+-  If the documented BMI is outside of normal parameters, then a follow-up plan is documented during the encounter or during the measurement period.  -  If more than one BMI is reported during the measurement period, and any of the documented BMI assessments is outside of normal parameters, documentation of an appropriate follow-up plan will be used to determine if performance has been met. 
+-  Review the exclusions and exceptions criteria to determine those patients that BMI measurement may not be appropriate or necessary.  Follow-Up Plan Guidance: 
+The documented follow-up plan must be based on the documented BMI, outside of normal parameters, example: "Patient referred to nutrition counseling for BMI above or below normal parameters." See the Definition section for examples of follow-up plan treatments.
+
+Variation has been noted in studies exploring optimal BMI ranges for the elderly (see Donini et al., 2012; Holme &amp; Tonstad, 2015; Diehr et al., 2008). Notably however, all these studies have arrived at ranges that differ from the standard range for ages 18 and older, which is &gt;= 18.5 and &lt; 25 kg/m2. For instance, both Donini et al. and Holme and Tonstad reported findings that suggest that higher BMI (higher than the upper end of 25 kg/m2) in the elderly may be beneficial. Similarly, worse outcomes have been associated with being underweight (at a threshold higher than 18.5 kg/m2) at age 65 (Diehr et al., 2008). Because of optimal BMI range variation recommendations from these studies, no specific optimal BMI range for the elderly is used. However, it may be appropriate to exempt certain patients from a follow-up plan by applying the exception criteria. See Denominator Exception section for examples.
+
+This eCQM is a patient-based measure. This measure is to be reported a minimum of once per measurement period for patients seen during the measurement period. This measure may be reported by eligible professionals who perform the quality actions described in the measure based on the services provided at the time of the qualifying encounter and the measure-specific denominator coding. 
+
+Telehealth encounters are not eligible for this measure because the measure requires a clinical action that cannot be conducted via telehealth. This FHIR-based measure has been derived from the QDM-based measure: CMS69v12.  
+Please refer to the HL7 QI-Core Implementation Guide (http://hl7.org/fhir/us/qicore/index.html) for more information on QI-Core and mapping recommendations from QDM to QI-Core 4.1.1 (http://hl7.org/fhir/us/qicore/qdm-to-qicore.html).</td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Copyright: </b>
+               </th> 
+               <td style="padding-left: 25px;">Limited proprietary coding is contained in the measure specifications for convenience. Users of the proprietary code sets should obtain all necessary licenses from the owners of these code sets. 
+
+CPT(R) contained in the Measure specifications is copyright 2004-2022 American Medical Association. LOINC(R) is copyright 2004-2022 Regenstrief Institute, Inc. This material contains SNOMED Clinical Terms(R) (SNOMED CT[R]) copyright 2004-2022 International Health Terminology Standards Development Organisation. ICD-10 is copyright 2022 World Health Organization. All Rights Reserved.</td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Disclaimer: </b>
+               </th> 
+               <td style="padding-left: 25px;">These performance measures are not clinical guidelines and do not establish a standard of medical care, and have not been tested for all potential applications.
+
+THE MEASURES AND SPECIFICATIONS ARE PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND. Due to technical limitations, registered trademarks are indicated by (R) or [R] and unregistered trademarks are indicated by (TM) or [TM].</td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Approval Date: </b>
+               </th> 
+               <td style="padding-left: 4px;">2023-08-30</td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Last Review Date: </b>
+               </th> 
+               <td style="padding-left: 4px;">2023-08-30</td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Effective Period: </b>
+               </th> 
+               <td style="padding-left: 4px;">2024-01-01..2024-12-31</td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Population Criteria: </b>
+               </th> 
+               <td style="padding-left: 4px;"> 
+                  <table class="grid-dict"> 
+                     <tr> 
+                        <th>
+                           <b>643465ae7c12bd4a0fdf28c8</b>
+                        </th> 
+                     </tr>  
+                     <tr> 
+                        <td>Initial Population: </td> 
+                        <td>All patients aged 18 and older on the date of the encounter with at least one qualifying encounter during the measurement period</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Denominator: </td> 
+                        <td>Equals Initial Population</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Denominator Exclusion: </td> 
+                        <td>Patients who are pregnant at any time during the measurement period.
+
+Patients receiving palliative or hospice care at any time during the measurement period.</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Numerator: </td> 
+                        <td>Patients with a documented BMI during the encounter or during the measurement period, AND when the BMI is outside of normal parameters, a follow-up plan is documented during the encounter or during the measurement period</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Numerator Exclusion: </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Denominator Exception: </td> 
+                        <td>Patients with a documented medical reason for not documenting BMI or for not documenting a follow-up plan for a BMI outside normal parameters (e.g., elderly patients 65 years of age or older for whom weight reduction/weight gain would complicate other underlying health conditions such as illness or physical disability, mental illness, dementia, confusion, or nutritional deficiency such as vitamin/mineral deficiency; patients in an urgent or emergent medical situation where time is of the essence and to delay treatment would jeopardize the patient’s health status).
+
+Patients who refuse measurement of height and/or weight.</td> 
+                     </tr> 
+                  </table> 
+               </td> 
+            </tr>   
+            <tr> 
+               <th scope="row">
+                  <b> Supplemental Data Guidance: </b>
+               </th> 
+               <td style="padding-left: 4px;"> </td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b> Supplemental Data Elements: </b>
+               </th> 
+               <td style="padding-left: 4px;">  SDE Ethnicity   SDE Payer   SDE Race   SDE Sex  </td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Libraries: </b>
+               </th> 
+               <td style="padding-left: 4px;"> 
+                  <table class="grid-dict"> 
+                     <tr>
+                        <td>http://ecqi.healthit.gov/ecqms/Library/PCSBMIScreenAndFollowUpFHIR</td>
+                     </tr> 
+                  </table> 
+               </td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Related Artifact Dependencies: </b>
+               </th> 
+               <td style="padding-left: 4px;"> 
+                  <li>Library/SupplementalDataElements|3.4.000</li> 
+                  <li>Library/FHIRHelpers|4.3.000</li> 
+                  <li>Library/QICoreCommon|1.5.000</li> 
+                  <li>Library/FHIRHelpers|4.3.000</li> 
+                  <li>Library/FHIRHelpers|4.3.000</li> 
+                  <li>Library/Hospice|6.7.000</li> 
+                  <li>Library/Status|1.6.000</li> 
+                  <li>Library/QICoreCommon|1.5.000</li> 
+                  <li>Library/FHIRHelpers|4.3.000</li> 
+                  <li>Library/PalliativeCare|1.7.000</li> 
+                  <li>http://terminology.hl7.org/CodeSystem/condition-category</li> 
+                  <li>http://hl7.org/fhir/us/core/CodeSystem/condition-category</li> 
+                  <li>http://terminology.hl7.org/CodeSystem/condition-clinical</li> 
+                  <li>http://terminology.hl7.org/CodeSystem/v3-ActCode</li> 
+                  <li>http://snomed.info/sct</li> 
+                  <li>http://terminology.hl7.org/CodeSystem/observation-category</li> 
+                  <li>http://loinc.org</li> 
+                  <li>http://loinc.org</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1525</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1527</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1561</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1047.502</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1528</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1562</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1563</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.3591</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.666.5.307</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1003</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1584</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1165</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1167</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.101.12.1090</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.198.12.1135</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1623</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1007</li> 
+                  <li>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1582</li> 
+               </td> 
+            </tr> 
+            <tr> 
+               <th scope="row">
+                  <b>Parameters:</b>
+               </th> 
+               <td style="padding-left: 4px;"> 
+                  <table class="grid-dict"> 
+                     <tr>
+                        <th>
+                           <b>name</b>
+                        </th>
+                        <th>
+                           <b>use</b>
+                        </th>
+                        <th>
+                           <b>min</b>
+                        </th>
+                        <th>
+                           <b>max</b>
+                        </th>
+                        <th>
+                           <b>type</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>Measurement Period</td> 
+                        <td>in</td> 
+                        <td>0</td> 
+                        <td>1</td> 
+                        <td>Period</td> 
+                     </tr> 
+                     <tr> 
+                        <td>SDE Sex</td> 
+                        <td>out</td> 
+                        <td>0</td> 
+                        <td>1</td> 
+                        <td>Coding</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Numerator</td> 
+                        <td>out</td> 
+                        <td>0</td> 
+                        <td>1</td> 
+                        <td>boolean</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Denominator</td> 
+                        <td>out</td> 
+                        <td>0</td> 
+                        <td>1</td> 
+                        <td>boolean</td> 
+                     </tr> 
+                     <tr> 
+                        <td>SDE Payer</td> 
+                        <td>out</td> 
+                        <td>0</td> 
+                        <td>*</td> 
+                        <td>Resource</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Initial Population</td> 
+                        <td>out</td> 
+                        <td>0</td> 
+                        <td>1</td> 
+                        <td>boolean</td> 
+                     </tr> 
+                     <tr> 
+                        <td>SDE Ethnicity</td> 
+                        <td>out</td> 
+                        <td>0</td> 
+                        <td>1</td> 
+                        <td>Resource</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Denominator Exclusions</td> 
+                        <td>out</td> 
+                        <td>0</td> 
+                        <td>1</td> 
+                        <td>boolean</td> 
+                     </tr> 
+                     <tr> 
+                        <td>SDE Race</td> 
+                        <td>out</td> 
+                        <td>0</td> 
+                        <td>1</td> 
+                        <td>Resource</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Denominator Exceptions</td> 
+                        <td>out</td> 
+                        <td>0</td> 
+                        <td>1</td> 
+                        <td>boolean</td> 
+                     </tr> 
+                  </table> 
+               </td> 
+            </tr> 
+            <tr> 
+               <th scope="row">
+                  <b>DataRequirements:</b>
+               </th> 
+               <td style="padding-left: 4px;"> 
+                  <table class="grid-dict"> 
+                     <tr>
+                        <th>
+                           <b>Type</b>
+                        </th>
+                        <th>
+                           <b>Must Support</b>
+                        </th>
+                        <th>
+                           <b>Valueset Name</b>
+                        </th>
+                        <th>
+                           <b>Valueset</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>Patient</td> 
+                        <td> </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Patient</td> 
+                        <td> gender gender.value birthDate birthDate.value </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Observation</td> 
+                        <td> value status status.value effective </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Observation</td> 
+                        <td> value status status.value effective </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Condition</td> 
+                        <td> clinicalStatus </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>ServiceRequest</td> 
+                        <td> code </td> 
+                        <td>  Follow Up for Above Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1525</td> 
+                     </tr> 
+                     <tr> 
+                        <td>ServiceRequest</td> 
+                        <td> code </td> 
+                        <td>  Referrals Where Weight Assessment May Occur  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1527</td> 
+                     </tr> 
+                     <tr> 
+                        <td>MedicationRequest</td> 
+                        <td> medication </td> 
+                        <td>  Medications for Above Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1561</td> 
+                     </tr> 
+                     <tr> 
+                        <td>MedicationRequest</td> 
+                        <td> medication </td> 
+                        <td>  Medications for Above Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1561</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Condition</td> 
+                        <td> code </td> 
+                        <td>  Overweight or Obese  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1047.502</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Procedure</td> 
+                        <td> code reasonCode status status.value performed </td> 
+                        <td>  Follow Up for Above Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1525</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Condition</td> 
+                        <td> code </td> 
+                        <td>  Overweight or Obese  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1047.502</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Patient</td> 
+                        <td> </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Observation</td> 
+                        <td> value status status.value effective </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Observation</td> 
+                        <td> value status status.value effective </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>ServiceRequest</td> 
+                        <td> code </td> 
+                        <td>  Follow Up for Below Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1528</td> 
+                     </tr> 
+                     <tr> 
+                        <td>ServiceRequest</td> 
+                        <td> code </td> 
+                        <td>  Referrals Where Weight Assessment May Occur  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1527</td> 
+                     </tr> 
+                     <tr> 
+                        <td>MedicationRequest</td> 
+                        <td> medication </td> 
+                        <td>  Medications for Below Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1562</td> 
+                     </tr> 
+                     <tr> 
+                        <td>MedicationRequest</td> 
+                        <td> medication </td> 
+                        <td>  Medications for Below Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1562</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Condition</td> 
+                        <td> code </td> 
+                        <td>  Underweight  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1563</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Procedure</td> 
+                        <td> code reasonCode status status.value performed </td> 
+                        <td>  Follow Up for Below Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1528</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Condition</td> 
+                        <td> code </td> 
+                        <td>  Underweight  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1563</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Observation</td> 
+                        <td> value status status.value effective </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Observation</td> 
+                        <td> value status status.value effective </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Encounter</td> 
+                        <td> type period class status status.value </td> 
+                        <td>  Encounter to Evaluate BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Patient</td> 
+                        <td> </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Encounter</td> 
+                        <td> type period class status status.value </td> 
+                        <td>  Encounter to Evaluate BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Coverage</td> 
+                        <td> type period </td> 
+                        <td>  Payer Type  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.3591</td> 
+                     </tr> 
+                     <tr> 
+                        <td>uri</td> 
+                        <td> value </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Patient</td> 
+                        <td> url extension </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Patient</td> 
+                        <td> url extension </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Encounter</td> 
+                        <td> type </td> 
+                        <td>  Encounter Inpatient   </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.666.5.307</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Encounter</td> 
+                        <td> type hospitalization hospitalization.dischargeDisposition period </td> 
+                        <td>  Encounter Inpatient  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.666.5.307</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Encounter</td> 
+                        <td> type </td> 
+                        <td>  Hospice Encounter  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1003</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Encounter</td> 
+                        <td> type period </td> 
+                        <td>  Hospice Encounter  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1003</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Observation</td> 
+                        <td> code </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Observation</td> 
+                        <td> code value effective </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>ServiceRequest</td> 
+                        <td> code </td> 
+                        <td>  Hospice Care Ambulatory  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1584</td> 
+                     </tr> 
+                     <tr> 
+                        <td>ServiceRequest</td> 
+                        <td> code authoredOn authoredOn.value </td> 
+                        <td>  Hospice Care Ambulatory  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1584</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Procedure</td> 
+                        <td> code </td> 
+                        <td>  Hospice Care Ambulatory  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1584</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Procedure</td> 
+                        <td> code performed </td> 
+                        <td>  Hospice Care Ambulatory  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1584</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Condition</td> 
+                        <td> code  </td> 
+                        <td>  Hospice Diagnosis  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1165</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Observation</td> 
+                        <td> code </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Observation</td> 
+                        <td> code effective </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Condition</td> 
+                        <td> code </td> 
+                        <td>  Palliative Care Diagnosis  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1167</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Encounter</td> 
+                        <td> type </td> 
+                        <td>  Palliative Care Encounter  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.101.12.1090</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Encounter</td> 
+                        <td> type period </td> 
+                        <td>  Palliative Care Encounter  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.101.12.1090</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Procedure</td> 
+                        <td> code </td> 
+                        <td>  Palliative Care Intervention  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.198.12.1135</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Procedure</td> 
+                        <td> code performed </td> 
+                        <td>  Palliative Care Intervention  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.198.12.1135</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Condition</td> 
+                        <td> code clinicalStatus </td> 
+                        <td>  Pregnancy or Other Related Diagnoses  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1623</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Encounter</td> 
+                        <td> type period class status status.value </td> 
+                        <td>  Encounter to Evaluate BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Patient</td> 
+                        <td> url extension </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Patient</td> 
+                        <td> url extension </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>ServiceRequest</td> 
+                        <td> code </td> 
+                        <td>  Referrals Where Weight Assessment May Occur  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1527</td> 
+                     </tr> 
+                     <tr> 
+                        <td>ServiceRequest</td> 
+                        <td> code </td> 
+                        <td>  Referrals Where Weight Assessment May Occur  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1527</td> 
+                     </tr> 
+                     <tr> 
+                        <td>ServiceRequest</td> 
+                        <td> code </td> 
+                        <td>  Follow Up for Above Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1525</td> 
+                     </tr> 
+                     <tr> 
+                        <td>ServiceRequest</td> 
+                        <td> code </td> 
+                        <td>  Follow Up for Above Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1525</td> 
+                     </tr> 
+                     <tr> 
+                        <td>ServiceRequest</td> 
+                        <td> code </td> 
+                        <td>  Follow Up for Below Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1528</td> 
+                     </tr> 
+                     <tr> 
+                        <td>ServiceRequest</td> 
+                        <td> code </td> 
+                        <td>  Follow Up for Below Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1528</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Encounter</td> 
+                        <td> type period class status status.value </td> 
+                        <td>  Encounter to Evaluate BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751</td> 
+                     </tr> 
+                     <tr> 
+                        <td>MedicationRequest</td> 
+                        <td> medication </td> 
+                        <td>  Medications for Above Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1561</td> 
+                     </tr>  
+                     <tr> 
+                        <td>MedicationRequest</td> 
+                        <td> medication </td> 
+                        <td>  Medications for Above Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1561</td> 
+                     </tr> 
+                     <tr> 
+                        <td>MedicationRequest</td> 
+                        <td> medication </td> 
+                        <td>  Medications for Below Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1562</td> 
+                     </tr> 
+                     <tr> 
+                        <td>MedicationRequest</td> 
+                        <td> medication </td> 
+                        <td>  Medications for Below Normal BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1562</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Encounter</td> 
+                        <td> type period class status status.value </td> 
+                        <td>  Encounter to Evaluate BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Observation</td> 
+                        <td> code effective status status.value extension </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Encounter</td> 
+                        <td> type period class status status.value </td> 
+                        <td>  Encounter to Evaluate BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Encounter</td> 
+                        <td> type period class status status.value </td> 
+                        <td>  Encounter to Evaluate BMI  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Coverage</td> 
+                        <td> type period </td> 
+                        <td>  Payer Type  </td> 
+                        <td>http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.3591</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Patient</td> 
+                        <td> url  extension  </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                     <tr> 
+                        <td>Patient</td> 
+                        <td> url extension </td> 
+                        <td> </td> 
+                        <td></td> 
+                     </tr> 
+                  </table> 
+               </td> 
+            </tr> 
+            <tr> 
+               <th scope="row">
+                  <b>Direct Reference Codes:</b>
+               </th> 
+               <td style="padding-left: 4px;"> 
+                  <table class="grid-dict"> 
+                     <tr>
+                        <th>
+                           <b>display</b>
+                        </th>
+                        <th>
+                           <b>code</b>
+                        </th>
+                        <th>
+                           <b>system</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>Problem List Item</td> 
+                        <td>problem-list-item</td> 
+                        <td>http://terminology.hl7.org/CodeSystem/condition-category</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Health Concern</td> 
+                        <td>health-concern</td> 
+                        <td>http://hl7.org/fhir/us/core/CodeSystem/condition-category</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>active</td> 
+                        <td>http://terminology.hl7.org/CodeSystem/condition-clinical</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>recurrence</td> 
+                        <td>http://terminology.hl7.org/CodeSystem/condition-clinical</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>relapse</td> 
+                        <td>http://terminology.hl7.org/CodeSystem/condition-clinical</td> 
+                     </tr> 
+                     <tr> 
+                        <td>virtual</td> 
+                        <td>VR</td> 
+                        <td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Discharge to home for hospice care (procedure)</td> 
+                        <td>428361000124107</td> 
+                        <td>http://snomed.info/sct</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Discharge to healthcare facility for hospice care (procedure)</td> 
+                        <td>428371000124100</td> 
+                        <td>http://snomed.info/sct</td> 
+                     </tr> 
+                     <tr> 
+                        <td>survey</td> 
+                        <td>survey</td> 
+                        <td>http://terminology.hl7.org/CodeSystem/observation-category</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Hospice care [Minimum Data Set]</td> 
+                        <td>45755-6</td> 
+                        <td>http://loinc.org</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Yes (qualifier value)</td> 
+                        <td>373066001</td> 
+                        <td>http://snomed.info/sct</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Functional Assessment of Chronic Illness Therapy - Palliative Care Questionnaire (FACIT-Pal)</td> 
+                        <td>71007-9</td> 
+                        <td>http://loinc.org</td> 
+                     </tr> 
+                     <tr> 
+                        <td>Body mass index (BMI) [Ratio]</td> 
+                        <td>39156-5</td> 
+                        <td>http://loinc.org</td> 
+                     </tr> 
+                  </table> 
+               </td> 
+            </tr>  
+            <tr> 
+               <th scope="row">
+                  <b>Logic Definitions:</b>
+               </th> 
+               <td style="padding-left: 4px;"> 
+                  <table class="grid-dict"> 
+                     <tr> 
+                        <th>
+                           <b>Group</b>
+                        </th>
+                        <th>
+                           <b>Scoring</b>
+                        </th>
+                        <th>
+                           <b>Population Criteria</b>
+                        </th>
+                        <th>
+                           <b>Expression</b>
+                        </th> 
+                     </tr> 
+                     <tr> 
+                        <td> 643465ae7c12bd4a0fdf28c8 </td> 
+                        <td> 
+                           <b>Group scoring:</b> 
+                           <span> proportion </span>  
+                        </td> 
+                        <tr> 
+                           <td></td> 
+                           <td></td> 
+                           <td>Initial Population</td> 
+                           <td> 
+                              <pre><code class="language-cql">define "Initial Population":
+  exists "Qualifying Encounter during Day of Measurement Period" QualifyingEncounter
+    where "AgeInYearsAt"(date from start of QualifyingEncounter.period) &gt;= 18</code></pre> 
+                           </td> 
+                        </tr> 
+                        <tr> 
+                           <td></td> 
+                           <td></td> 
+                           <td>Denominator</td> 
+                           <td> 
+                              <pre><code class="language-cql">define "Denominator":
+  "Initial Population"</code></pre> 
+                           </td> 
+                        </tr> 
+                        <tr> 
+                           <td></td> 
+                           <td></td> 
+                           <td>Denominator Exclusion</td> 
+                           <td> 
+                              <pre><code class="language-cql">define "Denominator Exclusions":
+  Hospice."Has Hospice Services"
+    or PalliativeCare."Has Palliative Care in the Measurement Period"
+    or exists "Pregnancy"</code></pre> 
+                           </td> 
+                        </tr> 
+                        <tr> 
+                           <td></td> 
+                           <td></td> 
+                           <td>Numerator</td> 
+                           <td> 
+                              <pre><code class="language-cql">define "Numerator":
+  exists "High BMI and Follow up Provided"
+    or exists "Low BMI and Follow up Provided"
+    or "Has Normal BMI"</code></pre> 
+                           </td> 
+                        </tr> 
+                        <tr> 
+                           <td></td> 
+                           <td></td> 
+                           <td>Numerator Exclusion</td> 
+                           <td> </td> 
+                        </tr> 
+                        <tr> 
+                           <td></td> 
+                           <td></td> 
+                           <td>Denominator Exception</td> 
+                           <td> 
+                              <pre><code class="language-cql">define "Denominator Exceptions":
+  exists "Medical Reason for Not Documenting a Follow up Plan for Low or High BMI"
+    or exists "Medical Reason or Patient Reason for Not Performing BMI Exam"</code></pre> 
+                           </td> 
+                        </tr>  
+                     </tr> 
+                  </table> 
+                  <table class="grid-dict"> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>SupplementalDataElements</td>  
+                        <td>SDE Sex</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "SDE Sex":
+  case
+      when Patient.gender = 'male' then Code { code: 'M', system: 'http://hl7.org/fhir/v3/AdministrativeGender', display: 'Male' }
+      when Patient.gender = 'female' then Code { code: 'F', system: 'http://hl7.org/fhir/v3/AdministrativeGender', display: 'Female' }
+      else null
+    end</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>SDE Sex</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "SDE Sex":
+  SDE."SDE Sex"</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>BMI during Measurement Period</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "BMI during Measurement Period":
+  ["observation-bmi"] BMI
+    where BMI.value &gt; 0 'kg/m2'
+      and BMI.status in { 'final', 'amended', 'corrected' }
+      and BMI.effective.toInterval ( ) during day of "Measurement Period"</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>Documented High BMI during Measurement Period</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Documented High BMI during Measurement Period":
+  "BMI during Measurement Period" BMI
+    where BMI.effective.toInterval ( ) during day of "Measurement Period"
+      and BMI.value &gt;= 25 'kg/m2'</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>High BMI Interventions Ordered</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "High BMI Interventions Ordered":
+  ( ( [ServiceRequest: "Follow Up for Above Normal BMI"]
+      union [ServiceRequest: "Referrals Where Weight Assessment May Occur"]
+      union [MedicationRequest: "Medications for Above Normal BMI"] ) HighInterventionsOrdered
+      where HighInterventionsOrdered.reasonCode in "Overweight or Obese"
+        or ( exists [Condition: "Overweight or Obese"] OverweightObese
+            where ( OverweightObese.isProblemListItem ( )
+                or OverweightObese.isHealthConcern ( )
+            )
+              and OverweightObese.isActive ( )
+              and OverweightObese.prevalenceInterval ( ) starts before or on day of HighInterventionsOrdered.authoredOn
+              and not ( OverweightObese.prevalenceInterval ( ) ends before day of HighInterventionsOrdered.authoredOn )
+        )
+  )</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>High BMI Interventions Performed</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "High BMI Interventions Performed":
+  ( [Procedure: "Follow Up for Above Normal BMI"] HighInterventionsPerformed
+      where HighInterventionsPerformed.reasonCode in "Overweight or Obese"
+        and HighInterventionsPerformed.status = 'completed'
+        or ( exists [Condition: "Overweight or Obese"] OverweightObese
+            where OverweightObese.isHealthConcern ( )
+              and OverweightObese.isActive ( )
+              and OverweightObese.prevalenceInterval ( ) starts before or on day of HighInterventionsPerformed.performed.toInterval ( )
+              and not ( OverweightObese.prevalenceInterval ( ) ends before day of HighInterventionsPerformed.performed.toInterval ( ) )
+        )
+  )</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>High BMI and Follow up Provided</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "High BMI and Follow up Provided":
+  "Documented High BMI during Measurement Period" HighBMI
+    with ( "High BMI Interventions Ordered"
+      union "High BMI Interventions Performed" ) HighBMIInterventions
+      such that Coalesce(HighBMIInterventions.performed.toInterval(), HighBMIInterventions.authoredOn.toInterval()) starts during day of "Measurement Period"</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>Documented Low BMI during Measurement Period</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Documented Low BMI during Measurement Period":
+  "BMI during Measurement Period" BMI
+    where BMI.effective.toInterval ( ) during day of "Measurement Period"
+      and BMI.value &lt; 18.5 'kg/m2'</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>Low BMI Interventions Ordered</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Low BMI Interventions Ordered":
+  ( ( [ServiceRequest: "Follow Up for Below Normal BMI"]
+      union [ServiceRequest: "Referrals Where Weight Assessment May Occur"]
+      union [MedicationRequest: "Medications for Below Normal BMI"] ) LowInterventionsOrdered
+      where LowInterventionsOrdered.reasonCode in "Underweight"
+        or ( exists [Condition: "Underweight"] Underweight
+            where ( Underweight.isHealthConcern ( ) )
+              and Underweight.isActive ( )
+              and Underweight.prevalenceInterval ( ) starts before or on day of LowInterventionsOrdered.authoredOn
+              and not ( Underweight.prevalenceInterval ( ) ends before day of LowInterventionsOrdered.authoredOn )
+              and LowInterventionsOrdered.authoredOn during day of "Measurement Period"
+        )
+  )</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>Low BMI Interventions Performed</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Low BMI Interventions Performed":
+  ( [Procedure: "Follow Up for Below Normal BMI"] LowInterventionsPerformed
+      where LowInterventionsPerformed.reasonCode in "Underweight"
+        and LowInterventionsPerformed.status = 'completed'
+        or ( exists [Condition: "Underweight"] Underweight
+            where ( Underweight.isHealthConcern ( ) )
+              and Underweight.isActive ( )
+              and Underweight.prevalenceInterval ( ) starts before or on day of LowInterventionsPerformed.performed.toInterval ( )
+              and not ( Underweight.prevalenceInterval ( ) ends before day of LowInterventionsPerformed.performed.toInterval ( )
+                  and LowInterventionsPerformed.performed.toInterval ( ) during day of "Measurement Period"
+              )
+        )
+  )</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>Low BMI and Follow up Provided</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Low BMI and Follow up Provided":
+  ( "Documented Low BMI during Measurement Period" LowBMI
+      with ( "Low BMI Interventions Ordered"
+        union "Low BMI Interventions Performed" ) LowBMIInterventions
+        such that Coalesce(LowBMIInterventions.performed.toInterval(), LowBMIInterventions.authoredOn.toInterval()) starts during day of "Measurement Period"
+  )</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>Has Normal BMI</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Has Normal BMI":
+  exists ( "BMI during Measurement Period" BMI
+      where BMI.value in Interval[18.5 'kg/m2', 24.9 'kg/m2']
+  )
+    and not ( exists "Documented High BMI during Measurement Period"
+        or exists "Documented Low BMI during Measurement Period"
+    )</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>Numerator</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Numerator":
+  exists "High BMI and Follow up Provided"
+    or exists "Low BMI and Follow up Provided"
+    or "Has Normal BMI"</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>Qualifying Encounter during Day of Measurement Period</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Qualifying Encounter during Day of Measurement Period":
+  [Encounter: "Encounter to Evaluate BMI"] BMIEncounter
+    where BMIEncounter.period during day of "Measurement Period"
+      and BMIEncounter.class !~ "virtual"
+      and BMIEncounter.status = 'finished'</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>Initial Population</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Initial Population":
+  exists "Qualifying Encounter during Day of Measurement Period" QualifyingEncounter
+    where "AgeInYearsAt"(date from start of QualifyingEncounter.period) &gt;= 18</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>Denominator</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Denominator":
+  "Initial Population"</code></pre>
+                        </td>  
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>SupplementalDataElements</td>  
+                        <td>SDE Payer</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "SDE Payer":
+  [Coverage: type in "Payer Type"] Payer
+    return {
+      code: Payer.type,
+      period: Payer.period
+    }</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>SDE Payer</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "SDE Payer":
+  SDE."SDE Payer"</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>SupplementalDataElements</td>  
+                        <td>SDE Ethnicity</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "SDE Ethnicity":
+  Patient.ethnicity E
+    return Tuple {
+      codes: { E.ombCategory } union E.detailed,
+      display: E.text
+    }</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>SDE Ethnicity</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "SDE Ethnicity":
+  SDE."SDE Ethnicity"</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>Hospice</td>  
+                        <td>Has Hospice Services</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Has Hospice Services":
+  exists ((([Encounter: "Encounter Inpatient"]).isEncounterPerformed()) InpatientEncounter
+      where (InpatientEncounter.hospitalization.dischargeDisposition ~ "Discharge to home for hospice care (procedure)"
+          or InpatientEncounter.hospitalization.dischargeDisposition ~ "Discharge to healthcare facility for hospice care (procedure)"
+      )
+        and InpatientEncounter.period.toInterval() ends during day of "Measurement Period"
+  )
+    or exists ((([Encounter: "Hospice Encounter"]).isEncounterPerformed()) HospiceEncounter
+        where HospiceEncounter.period.toInterval() overlaps day of "Measurement Period"
+    )
+    or exists ((([Observation: "Hospice care [Minimum Data Set]"]).isAssessmentPerformed()) HospiceAssessment
+        where HospiceAssessment.value ~ "Yes (qualifier value)"
+          and HospiceAssessment.effective.toInterval() overlaps day of "Measurement Period"
+    )
+    or exists ((([ServiceRequest: "Hospice Care Ambulatory"]).isInterventionOrder()) HospiceOrder
+        where HospiceOrder.authoredOn.toInterval() during day of "Measurement Period"
+    )
+    or exists ((([Procedure: "Hospice Care Ambulatory"]).isInterventionPerformed()) HospicePerformed
+        where HospicePerformed.performed.toInterval() overlaps day of "Measurement Period"
+    )
+    or exists (([Condition: "Hospice Diagnosis"]) HospiceCareDiagnosis
+        where HospiceCareDiagnosis.prevalenceInterval() overlaps day of "Measurement Period"
+    )</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PalliativeCare</td>  
+                        <td>Has Palliative Care in the Measurement Period</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Has Palliative Care in the Measurement Period":
+  exists ((([Observation: "Functional Assessment of Chronic Illness Therapy - Palliative Care Questionnaire (FACIT-Pal)"]).isAssessmentPerformed()) PalliativeAssessment
+      where PalliativeAssessment.effective.toInterval() overlaps day of "Measurement Period"
+  )
+    or exists ([Condition: "Palliative Care Diagnosis"] PalliativeDiagnosis
+        where PalliativeDiagnosis.prevalenceInterval() overlaps day of "Measurement Period"
+    )
+    or exists ((([Encounter: "Palliative Care Encounter"]).isEncounterPerformed()) PalliativeEncounter
+        where PalliativeEncounter.period.toInterval() overlaps day of "Measurement Period"
+    )
+    or exists ((([Procedure: "Palliative Care Intervention"]).isInterventionPerformed()) PalliativeIntervention
+        where PalliativeIntervention.performed.toInterval() overlaps day of "Measurement Period"
+    )</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>Pregnancy</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Pregnancy":
+  [Condition: "Pregnancy or Other Related Diagnoses"] PregnancyDiagnosis
+    with "Qualifying Encounter during Day of Measurement Period" QualifyingEncounter
+      such that PregnancyDiagnosis.clinicalStatus ~ QICoreCommon."active"
+        and PregnancyDiagnosis.prevalenceInterval ( ) overlaps day of "Measurement Period"</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>Denominator Exclusions</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Denominator Exclusions":
+  Hospice."Has Hospice Services"
+    or PalliativeCare."Has Palliative Care in the Measurement Period"
+    or exists "Pregnancy"</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>SupplementalDataElements</td>  
+                        <td>SDE Race</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "SDE Race":
+  Patient.race R
+    return Tuple {
+      codes: R.ombCategory union R.detailed,
+      display: R.text
+    }</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>SDE Race</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "SDE Race":
+  SDE."SDE Race"</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>Medical Reason for Not Documenting a Follow up Plan for Low or High BMI</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Medical Reason for Not Documenting a Follow up Plan for Low or High BMI":
+  ( ( [ServiceNotRequested: "Referrals Where Weight Assessment May Occur"]
+      union [ServiceNotRequested: "Follow Up for Above Normal BMI"]
+      union [ServiceNotRequested: "Follow Up for Below Normal BMI"] ) NoBMIFollowUp
+      with "Qualifying Encounter during Day of Measurement Period" QualifyingEncounter
+        such that NoBMIFollowUp.authoredOn same day as start of QualifyingEncounter.period
+      where NoBMIFollowUp.status ~ 'completed'
+        and NoBMIFollowUp.reasonRefused in "Medical Reason"
+  )
+    union ( ( [MedicationNotRequested: "Medications for Above Normal BMI"]
+        union [MedicationNotRequested: "Medications for Below Normal BMI"] ) NoBMIFollowUp
+        with "Qualifying Encounter during Day of Measurement Period" QualifyingEncounter
+          such that NoBMIFollowUp.authoredOn same day as start of QualifyingEncounter.period
+        where NoBMIFollowUp.status ~ 'completed'
+          and NoBMIFollowUp.reasonCode in "Medical Reason"
+    )</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>Medical Reason or Patient Reason for Not Performing BMI Exam</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Medical Reason or Patient Reason for Not Performing BMI Exam":
+  [ObservationNotDone: code = "Body mass index (BMI) [Ratio]"] NoBMI
+    with "Qualifying Encounter during Day of Measurement Period" QualifyingEncounter
+      such that NoBMI.effective.toInterval ( ) ends same day as start of QualifyingEncounter.period
+    where NoBMI.status = 'cancelled'
+      and ( NoBMI.notDoneReason in "Patient Declined"
+          or NoBMI.notDoneReason in "Medical Reason"
+      )</code></pre>
+                        </td> 
+                     </tr> 
+                     <tr>
+                        <th>
+                           <b>Library Name</b>
+                        </th>
+                        <th>
+                           <b>Name</b>
+                        </th>
+                     </tr> 
+                     <tr> 
+                        <td>PCSBMIScreenAndFollowUpFHIR</td>  
+                        <td>Denominator Exceptions</td> 
+                     </tr> 
+                     <tr> 
+                        <td></td> 
+                        <td>
+                           <pre class="highlight language-cql"><code data-lang="cql" class="language-cql">define "Denominator Exceptions":
+  exists "Medical Reason for Not Documenting a Follow up Plan for Low or High BMI"
+    or exists "Medical Reason or Patient Reason for Not Performing BMI Exam"</code></pre>
+                        </td> 
+                     </tr> 
+                  </table> 
+               </td> 
+            </tr>  
+         </table> 
+      </div>
+   </text>
+   <contained>
+      <Library xmlns="http://hl7.org/fhir">
+         <id value="effective-data-requirements"></id>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://terminology.hl7.org/CodeSystem/condition-category"></system>
+               <code value="problem-list-item"></code>
+               <display value="Problem List Item"></display>
+            </valueCoding>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://hl7.org/fhir/us/core/CodeSystem/condition-category"></system>
+               <code value="health-concern"></code>
+               <display value="Health Concern"></display>
+            </valueCoding>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"></system>
+               <code value="active"></code>
+            </valueCoding>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"></system>
+               <code value="recurrence"></code>
+            </valueCoding>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"></system>
+               <code value="relapse"></code>
+            </valueCoding>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"></system>
+               <code value="VR"></code>
+               <display value="virtual"></display>
+            </valueCoding>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://snomed.info/sct"></system>
+               <code value="428361000124107"></code>
+               <display value="Discharge to home for hospice care (procedure)"></display>
+            </valueCoding>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://snomed.info/sct"></system>
+               <code value="428371000124100"></code>
+               <display value="Discharge to healthcare facility for hospice care (procedure)"></display>
+            </valueCoding>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://terminology.hl7.org/CodeSystem/observation-category"></system>
+               <code value="survey"></code>
+               <display value="survey"></display>
+            </valueCoding>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"></system>
+               <code value="45755-6"></code>
+               <display value="Hospice care [Minimum Data Set]"></display>
+            </valueCoding>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://snomed.info/sct"></system>
+               <code value="373066001"></code>
+               <display value="Yes (qualifier value)"></display>
+            </valueCoding>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"></system>
+               <code value="71007-9"></code>
+               <display value="Functional Assessment of Chronic Illness Therapy - Palliative Care Questionnaire (FACIT-Pal)"></display>
+            </valueCoding>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode">
+            <valueCoding>
+               <system value="http://loinc.org"></system>
+               <code value="39156-5"></code>
+               <display value="Body mass index (BMI) [Ratio]"></display>
+            </valueCoding>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="SupplementalDataElements"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Sex"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Sex&quot;:
+  case
+      when Patient.gender = 'male' then Code { code: 'M', system: 'http://hl7.org/fhir/v3/AdministrativeGender', display: 'Male' }
+      when Patient.gender = 'female' then Code { code: 'F', system: 'http://hl7.org/fhir/v3/AdministrativeGender', display: 'Female' }
+      else null
+    end"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="0"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Sex"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Sex&quot;:
+  SDE.&quot;SDE Sex&quot;"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="1"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="BMI during Measurement Period"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;BMI during Measurement Period&quot;:
+  [&quot;observation-bmi&quot;] BMI
+    where BMI.value &gt; 0 'kg/m2'
+      and BMI.status in { 'final', 'amended', 'corrected' }
+      and BMI.effective.toInterval ( ) during day of &quot;Measurement Period&quot;"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="2"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Documented High BMI during Measurement Period"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Documented High BMI during Measurement Period&quot;:
+  &quot;BMI during Measurement Period&quot; BMI
+    where BMI.effective.toInterval ( ) during day of &quot;Measurement Period&quot;
+      and BMI.value &gt;= 25 'kg/m2'"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="3"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="High BMI Interventions Ordered"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;High BMI Interventions Ordered&quot;:
+  ( ( [ServiceRequest: &quot;Follow Up for Above Normal BMI&quot;]
+      union [ServiceRequest: &quot;Referrals Where Weight Assessment May Occur&quot;]
+      union [MedicationRequest: &quot;Medications for Above Normal BMI&quot;] ) HighInterventionsOrdered
+      where HighInterventionsOrdered.reasonCode in &quot;Overweight or Obese&quot;
+        or ( exists [Condition: &quot;Overweight or Obese&quot;] OverweightObese
+            where ( OverweightObese.isProblemListItem ( )
+                or OverweightObese.isHealthConcern ( )
+            )
+              and OverweightObese.isActive ( )
+              and OverweightObese.prevalenceInterval ( ) starts before or on day of HighInterventionsOrdered.authoredOn
+              and not ( OverweightObese.prevalenceInterval ( ) ends before day of HighInterventionsOrdered.authoredOn )
+        )
+  )"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="4"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="High BMI Interventions Performed"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;High BMI Interventions Performed&quot;:
+  ( [Procedure: &quot;Follow Up for Above Normal BMI&quot;] HighInterventionsPerformed
+      where HighInterventionsPerformed.reasonCode in &quot;Overweight or Obese&quot;
+        and HighInterventionsPerformed.status = 'completed'
+        or ( exists [Condition: &quot;Overweight or Obese&quot;] OverweightObese
+            where OverweightObese.isHealthConcern ( )
+              and OverweightObese.isActive ( )
+              and OverweightObese.prevalenceInterval ( ) starts before or on day of HighInterventionsPerformed.performed.toInterval ( )
+              and not ( OverweightObese.prevalenceInterval ( ) ends before day of HighInterventionsPerformed.performed.toInterval ( ) )
+        )
+  )"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="5"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="High BMI and Follow up Provided"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;High BMI and Follow up Provided&quot;:
+  &quot;Documented High BMI during Measurement Period&quot; HighBMI
+    with ( &quot;High BMI Interventions Ordered&quot;
+      union &quot;High BMI Interventions Performed&quot; ) HighBMIInterventions
+      such that Coalesce(HighBMIInterventions.performed.toInterval(), HighBMIInterventions.authoredOn.toInterval()) starts during day of &quot;Measurement Period&quot;"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="6"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Documented Low BMI during Measurement Period"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Documented Low BMI during Measurement Period&quot;:
+  &quot;BMI during Measurement Period&quot; BMI
+    where BMI.effective.toInterval ( ) during day of &quot;Measurement Period&quot;
+      and BMI.value &lt; 18.5 'kg/m2'"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="7"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Low BMI Interventions Ordered"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Low BMI Interventions Ordered&quot;:
+  ( ( [ServiceRequest: &quot;Follow Up for Below Normal BMI&quot;]
+      union [ServiceRequest: &quot;Referrals Where Weight Assessment May Occur&quot;]
+      union [MedicationRequest: &quot;Medications for Below Normal BMI&quot;] ) LowInterventionsOrdered
+      where LowInterventionsOrdered.reasonCode in &quot;Underweight&quot;
+        or ( exists [Condition: &quot;Underweight&quot;] Underweight
+            where ( Underweight.isHealthConcern ( ) )
+              and Underweight.isActive ( )
+              and Underweight.prevalenceInterval ( ) starts before or on day of LowInterventionsOrdered.authoredOn
+              and not ( Underweight.prevalenceInterval ( ) ends before day of LowInterventionsOrdered.authoredOn )
+              and LowInterventionsOrdered.authoredOn during day of &quot;Measurement Period&quot;
+        )
+  )"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="8"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Low BMI Interventions Performed"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Low BMI Interventions Performed&quot;:
+  ( [Procedure: &quot;Follow Up for Below Normal BMI&quot;] LowInterventionsPerformed
+      where LowInterventionsPerformed.reasonCode in &quot;Underweight&quot;
+        and LowInterventionsPerformed.status = 'completed'
+        or ( exists [Condition: &quot;Underweight&quot;] Underweight
+            where ( Underweight.isHealthConcern ( ) )
+              and Underweight.isActive ( )
+              and Underweight.prevalenceInterval ( ) starts before or on day of LowInterventionsPerformed.performed.toInterval ( )
+              and not ( Underweight.prevalenceInterval ( ) ends before day of LowInterventionsPerformed.performed.toInterval ( )
+                  and LowInterventionsPerformed.performed.toInterval ( ) during day of &quot;Measurement Period&quot;
+              )
+        )
+  )"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="9"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Low BMI and Follow up Provided"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Low BMI and Follow up Provided&quot;:
+  ( &quot;Documented Low BMI during Measurement Period&quot; LowBMI
+      with ( &quot;Low BMI Interventions Ordered&quot;
+        union &quot;Low BMI Interventions Performed&quot; ) LowBMIInterventions
+        such that Coalesce(LowBMIInterventions.performed.toInterval(), LowBMIInterventions.authoredOn.toInterval()) starts during day of &quot;Measurement Period&quot;
+  )"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="10"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Has Normal BMI"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Has Normal BMI&quot;:
+  exists ( &quot;BMI during Measurement Period&quot; BMI
+      where BMI.value in Interval[18.5 'kg/m2', 24.9 'kg/m2']
+  )
+    and not ( exists &quot;Documented High BMI during Measurement Period&quot;
+        or exists &quot;Documented Low BMI during Measurement Period&quot;
+    )"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="11"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Numerator"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Numerator&quot;:
+  exists &quot;High BMI and Follow up Provided&quot;
+    or exists &quot;Low BMI and Follow up Provided&quot;
+    or &quot;Has Normal BMI&quot;"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="12"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Qualifying Encounter during Day of Measurement Period"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Qualifying Encounter during Day of Measurement Period&quot;:
+  [Encounter: &quot;Encounter to Evaluate BMI&quot;] BMIEncounter
+    where BMIEncounter.period during day of &quot;Measurement Period&quot;
+      and BMIEncounter.class !~ &quot;virtual&quot;
+      and BMIEncounter.status = 'finished'"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="13"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Initial Population"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Initial Population&quot;:
+  exists &quot;Qualifying Encounter during Day of Measurement Period&quot; QualifyingEncounter
+    where &quot;AgeInYearsAt&quot;(date from start of QualifyingEncounter.period) &gt;= 18"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="14"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Denominator"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Denominator&quot;:
+  &quot;Initial Population&quot;"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="15"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="SupplementalDataElements"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Payer"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Payer&quot;:
+  [Coverage: type in &quot;Payer Type&quot;] Payer
+    return {
+      code: Payer.type,
+      period: Payer.period
+    }"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="16"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Payer"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Payer&quot;:
+  SDE.&quot;SDE Payer&quot;"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="17"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="SupplementalDataElements"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Ethnicity"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Ethnicity&quot;:
+  Patient.ethnicity E
+    return Tuple {
+      codes: { E.ombCategory } union E.detailed,
+      display: E.text
+    }"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="18"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Ethnicity"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Ethnicity&quot;:
+  SDE.&quot;SDE Ethnicity&quot;"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="19"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="Hospice"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Has Hospice Services"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Has Hospice Services&quot;:
+  exists ((([Encounter: &quot;Encounter Inpatient&quot;]).isEncounterPerformed()) InpatientEncounter
+      where (InpatientEncounter.hospitalization.dischargeDisposition ~ &quot;Discharge to home for hospice care (procedure)&quot;
+          or InpatientEncounter.hospitalization.dischargeDisposition ~ &quot;Discharge to healthcare facility for hospice care (procedure)&quot;
+      )
+        and InpatientEncounter.period.toInterval() ends during day of &quot;Measurement Period&quot;
+  )
+    or exists ((([Encounter: &quot;Hospice Encounter&quot;]).isEncounterPerformed()) HospiceEncounter
+        where HospiceEncounter.period.toInterval() overlaps day of &quot;Measurement Period&quot;
+    )
+    or exists ((([Observation: &quot;Hospice care [Minimum Data Set]&quot;]).isAssessmentPerformed()) HospiceAssessment
+        where HospiceAssessment.value ~ &quot;Yes (qualifier value)&quot;
+          and HospiceAssessment.effective.toInterval() overlaps day of &quot;Measurement Period&quot;
+    )
+    or exists ((([ServiceRequest: &quot;Hospice Care Ambulatory&quot;]).isInterventionOrder()) HospiceOrder
+        where HospiceOrder.authoredOn.toInterval() during day of &quot;Measurement Period&quot;
+    )
+    or exists ((([Procedure: &quot;Hospice Care Ambulatory&quot;]).isInterventionPerformed()) HospicePerformed
+        where HospicePerformed.performed.toInterval() overlaps day of &quot;Measurement Period&quot;
+    )
+    or exists (([Condition: &quot;Hospice Diagnosis&quot;]) HospiceCareDiagnosis
+        where HospiceCareDiagnosis.prevalenceInterval() overlaps day of &quot;Measurement Period&quot;
+    )"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="20"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PalliativeCare"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Has Palliative Care in the Measurement Period"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Has Palliative Care in the Measurement Period&quot;:
+  exists ((([Observation: &quot;Functional Assessment of Chronic Illness Therapy - Palliative Care Questionnaire (FACIT-Pal)&quot;]).isAssessmentPerformed()) PalliativeAssessment
+      where PalliativeAssessment.effective.toInterval() overlaps day of &quot;Measurement Period&quot;
+  )
+    or exists ([Condition: &quot;Palliative Care Diagnosis&quot;] PalliativeDiagnosis
+        where PalliativeDiagnosis.prevalenceInterval() overlaps day of &quot;Measurement Period&quot;
+    )
+    or exists ((([Encounter: &quot;Palliative Care Encounter&quot;]).isEncounterPerformed()) PalliativeEncounter
+        where PalliativeEncounter.period.toInterval() overlaps day of &quot;Measurement Period&quot;
+    )
+    or exists ((([Procedure: &quot;Palliative Care Intervention&quot;]).isInterventionPerformed()) PalliativeIntervention
+        where PalliativeIntervention.performed.toInterval() overlaps day of &quot;Measurement Period&quot;
+    )"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="21"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Pregnancy"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Pregnancy&quot;:
+  [Condition: &quot;Pregnancy or Other Related Diagnoses&quot;] PregnancyDiagnosis
+    with &quot;Qualifying Encounter during Day of Measurement Period&quot; QualifyingEncounter
+      such that PregnancyDiagnosis.clinicalStatus ~ QICoreCommon.&quot;active&quot;
+        and PregnancyDiagnosis.prevalenceInterval ( ) overlaps day of &quot;Measurement Period&quot;"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="22"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Denominator Exclusions"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Denominator Exclusions&quot;:
+  Hospice.&quot;Has Hospice Services&quot;
+    or PalliativeCare.&quot;Has Palliative Care in the Measurement Period&quot;
+    or exists &quot;Pregnancy&quot;"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="23"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="SupplementalDataElements"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Race"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Race&quot;:
+  Patient.race R
+    return Tuple {
+      codes: R.ombCategory union R.detailed,
+      display: R.text
+    }"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="24"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="SDE Race"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;SDE Race&quot;:
+  SDE.&quot;SDE Race&quot;"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="25"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Medical Reason for Not Documenting a Follow up Plan for Low or High BMI"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Medical Reason for Not Documenting a Follow up Plan for Low or High BMI&quot;:
+  ( ( [ServiceNotRequested: &quot;Referrals Where Weight Assessment May Occur&quot;]
+      union [ServiceNotRequested: &quot;Follow Up for Above Normal BMI&quot;]
+      union [ServiceNotRequested: &quot;Follow Up for Below Normal BMI&quot;] ) NoBMIFollowUp
+      with &quot;Qualifying Encounter during Day of Measurement Period&quot; QualifyingEncounter
+        such that NoBMIFollowUp.authoredOn same day as start of QualifyingEncounter.period
+      where NoBMIFollowUp.status ~ 'completed'
+        and NoBMIFollowUp.reasonRefused in &quot;Medical Reason&quot;
+  )
+    union ( ( [MedicationNotRequested: &quot;Medications for Above Normal BMI&quot;]
+        union [MedicationNotRequested: &quot;Medications for Below Normal BMI&quot;] ) NoBMIFollowUp
+        with &quot;Qualifying Encounter during Day of Measurement Period&quot; QualifyingEncounter
+          such that NoBMIFollowUp.authoredOn same day as start of QualifyingEncounter.period
+        where NoBMIFollowUp.status ~ 'completed'
+          and NoBMIFollowUp.reasonCode in &quot;Medical Reason&quot;
+    )"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="26"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Medical Reason or Patient Reason for Not Performing BMI Exam"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Medical Reason or Patient Reason for Not Performing BMI Exam&quot;:
+  [ObservationNotDone: code = &quot;Body mass index (BMI) [Ratio]&quot;] NoBMI
+    with &quot;Qualifying Encounter during Day of Measurement Period&quot; QualifyingEncounter
+      such that NoBMI.effective.toInterval ( ) ends same day as start of QualifyingEncounter.period
+    where NoBMI.status = 'cancelled'
+      and ( NoBMI.notDoneReason in &quot;Patient Declined&quot;
+          or NoBMI.notDoneReason in &quot;Medical Reason&quot;
+      )"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="27"></valueInteger>
+            </extension>
+         </extension>
+         <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition">
+            <extension url="libraryName">
+               <valueString value="PCSBMIScreenAndFollowUpFHIR"></valueString>
+            </extension>
+            <extension url="name">
+               <valueString value="Denominator Exceptions"></valueString>
+            </extension>
+            <extension url="statement">
+               <valueString value="define &quot;Denominator Exceptions&quot;:
+  exists &quot;Medical Reason for Not Documenting a Follow up Plan for Low or High BMI&quot;
+    or exists &quot;Medical Reason or Patient Reason for Not Performing BMI Exam&quot;"></valueString>
+            </extension>
+            <extension url="displaySequence">
+               <valueInteger value="28"></valueInteger>
+            </extension>
+         </extension>
+         <status value="active"></status>
+         <type>
+            <coding>
+               <system value="http://terminology.hl7.org/CodeSystem/library-type"></system>
+               <code value="module-definition"></code>
+            </coding>
+         </type>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Library SDE"></display>
+            <resource value="Library/SupplementalDataElements|3.4.000"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Library FHIRHelpers"></display>
+            <resource value="Library/FHIRHelpers|4.3.000"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Library QICoreCommon"></display>
+            <resource value="Library/QICoreCommon|1.5.000"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Library FHIRHelpers"></display>
+            <resource value="Library/FHIRHelpers|4.3.000"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Library FHIRHelpers"></display>
+            <resource value="Library/FHIRHelpers|4.3.000"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Library Hospice"></display>
+            <resource value="Library/Hospice|6.7.000"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Library Status"></display>
+            <resource value="Library/Status|1.6.000"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Library QICoreCommon"></display>
+            <resource value="Library/QICoreCommon|1.5.000"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Library FHIRHelpers"></display>
+            <resource value="Library/FHIRHelpers|4.3.000"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Library PalliativeCare"></display>
+            <resource value="Library/PalliativeCare|1.7.000"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Code system ConditionCategory"></display>
+            <resource value="http://terminology.hl7.org/CodeSystem/condition-category"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Code system USCoreConditionCategoryExtensionCodes"></display>
+            <resource value="http://hl7.org/fhir/us/core/CodeSystem/condition-category"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Code system ConditionClinicalStatusCodes"></display>
+            <resource value="http://terminology.hl7.org/CodeSystem/condition-clinical"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Code system ActCode"></display>
+            <resource value="http://terminology.hl7.org/CodeSystem/v3-ActCode"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Code system SNOMEDCT"></display>
+            <resource value="http://snomed.info/sct"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Code system ObservationCategoryCodes"></display>
+            <resource value="http://terminology.hl7.org/CodeSystem/observation-category"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Code system LOINC"></display>
+            <resource value="http://loinc.org"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Code system LOINC"></display>
+            <resource value="http://loinc.org"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Follow Up for Above Normal BMI"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1525"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Referrals Where Weight Assessment May Occur"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1527"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Medications for Above Normal BMI"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1561"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Overweight or Obese"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1047.502"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Follow Up for Below Normal BMI"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1528"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Medications for Below Normal BMI"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1562"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Underweight"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1563"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Encounter to Evaluate BMI"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Payer Type"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.3591"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Encounter Inpatient"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.666.5.307"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Hospice Encounter"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1003"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Hospice Care Ambulatory"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1584"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Hospice Diagnosis"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1165"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Palliative Care Diagnosis"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1167"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Palliative Care Encounter"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.101.12.1090"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Palliative Care Intervention"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.198.12.1135"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Pregnancy or Other Related Diagnoses"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1623"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Medical Reason"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1007"></resource>
+         </relatedArtifact>
+         <relatedArtifact>
+            <type value="depends-on"></type>
+            <display value="Value set Patient Declined"></display>
+            <resource value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1582"></resource>
+         </relatedArtifact>
+         <parameter>
+            <name value="Measurement Period"></name>
+            <use value="in"></use>
+            <min value="0"></min>
+            <max value="1"></max>
+            <type value="Period"></type>
+         </parameter>
+         <parameter>
+            <name value="SDE Sex"></name>
+            <use value="out"></use>
+            <min value="0"></min>
+            <max value="1"></max>
+            <type value="Coding"></type>
+         </parameter>
+         <parameter>
+            <name value="Numerator"></name>
+            <use value="out"></use>
+            <min value="0"></min>
+            <max value="1"></max>
+            <type value="boolean"></type>
+         </parameter>
+         <parameter>
+            <name value="Denominator"></name>
+            <use value="out"></use>
+            <min value="0"></min>
+            <max value="1"></max>
+            <type value="boolean"></type>
+         </parameter>
+         <parameter>
+            <name value="SDE Payer"></name>
+            <use value="out"></use>
+            <min value="0"></min>
+            <max value="*"></max>
+            <type value="Resource"></type>
+         </parameter>
+         <parameter>
+            <name value="Initial Population"></name>
+            <use value="out"></use>
+            <min value="0"></min>
+            <max value="1"></max>
+            <type value="boolean"></type>
+         </parameter>
+         <parameter>
+            <name value="SDE Ethnicity"></name>
+            <use value="out"></use>
+            <min value="0"></min>
+            <max value="1"></max>
+            <type value="Resource"></type>
+         </parameter>
+         <parameter>
+            <name value="Denominator Exclusions"></name>
+            <use value="out"></use>
+            <min value="0"></min>
+            <max value="1"></max>
+            <type value="boolean"></type>
+         </parameter>
+         <parameter>
+            <name value="SDE Race"></name>
+            <use value="out"></use>
+            <min value="0"></min>
+            <max value="1"></max>
+            <type value="Resource"></type>
+         </parameter>
+         <parameter>
+            <name value="Denominator Exceptions"></name>
+            <use value="out"></use>
+            <min value="0"></min>
+            <max value="1"></max>
+            <type value="boolean"></type>
+         </parameter>
+         <dataRequirement>
+            <type value="Patient"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"></profile>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Patient"></type>
+            <profile value="http://hl7.org/fhir/Patient"></profile>
+            <mustSupport value="gender"></mustSupport>
+            <mustSupport value="gender.value"></mustSupport>
+            <mustSupport value="birthDate"></mustSupport>
+            <mustSupport value="birthDate.value"></mustSupport>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"></type>
+            <profile value="http://hl7.org/fhir/StructureDefinition/bmi"></profile>
+            <mustSupport value="value"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <mustSupport value="effective"></mustSupport>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"></type>
+            <profile value="http://hl7.org/fhir/StructureDefinition/bmi"></profile>
+            <mustSupport value="value"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <mustSupport value="effective"></mustSupport>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"></type>
+            <profile value="http://hl7.org/fhir/Condition"></profile>
+            <mustSupport value="clinicalStatus"></mustSupport>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="ServiceRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-servicerequest"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1525"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="ServiceRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-servicerequest"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1527"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="MedicationRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationrequest"></profile>
+            <mustSupport value="medication"></mustSupport>
+            <codeFilter>
+               <path value="medication"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1561"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="MedicationRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationrequest"></profile>
+            <mustSupport value="medication"></mustSupport>
+            <codeFilter>
+               <path value="medication"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1561"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-condition"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1047.502"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Procedure"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-procedure"></profile>
+            <mustSupport value="code"></mustSupport>
+            <mustSupport value="reasonCode"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <mustSupport value="performed"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1525"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-condition"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1047.502"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Patient"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"></profile>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"></type>
+            <profile value="http://hl7.org/fhir/StructureDefinition/bmi"></profile>
+            <mustSupport value="value"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <mustSupport value="effective"></mustSupport>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"></type>
+            <profile value="http://hl7.org/fhir/StructureDefinition/bmi"></profile>
+            <mustSupport value="value"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <mustSupport value="effective"></mustSupport>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="ServiceRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-servicerequest"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1528"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="ServiceRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-servicerequest"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1527"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="MedicationRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationrequest"></profile>
+            <mustSupport value="medication"></mustSupport>
+            <codeFilter>
+               <path value="medication"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1562"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="MedicationRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationrequest"></profile>
+            <mustSupport value="medication"></mustSupport>
+            <codeFilter>
+               <path value="medication"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1562"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-condition"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1563"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Procedure"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-procedure"></profile>
+            <mustSupport value="code"></mustSupport>
+            <mustSupport value="reasonCode"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <mustSupport value="performed"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1528"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-condition"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1563"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"></type>
+            <profile value="http://hl7.org/fhir/StructureDefinition/bmi"></profile>
+            <mustSupport value="value"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <mustSupport value="effective"></mustSupport>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"></type>
+            <profile value="http://hl7.org/fhir/StructureDefinition/bmi"></profile>
+            <mustSupport value="value"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <mustSupport value="effective"></mustSupport>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Encounter"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"></profile>
+            <mustSupport value="type"></mustSupport>
+            <mustSupport value="period"></mustSupport>
+            <mustSupport value="class"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <codeFilter>
+               <path value="type"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Patient"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"></profile>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Encounter"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"></profile>
+            <mustSupport value="type"></mustSupport>
+            <mustSupport value="period"></mustSupport>
+            <mustSupport value="class"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <codeFilter>
+               <path value="type"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Coverage"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-coverage"></profile>
+            <mustSupport value="type"></mustSupport>
+            <mustSupport value="period"></mustSupport>
+            <codeFilter>
+               <path value="type"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.3591"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="uri"></type>
+            <profile value="http://hl7.org/fhir/uri"></profile>
+            <mustSupport value="value"></mustSupport>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Patient"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"></profile>
+            <mustSupport value="url"></mustSupport>
+            <mustSupport value="extension"></mustSupport>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Patient"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"></profile>
+            <mustSupport value="url"></mustSupport>
+            <mustSupport value="extension"></mustSupport>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Encounter"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"></profile>
+            <mustSupport value="type"></mustSupport>
+            <codeFilter>
+               <path value="type"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.666.5.307"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Encounter"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"></profile>
+            <mustSupport value="type"></mustSupport>
+            <mustSupport value="hospitalization"></mustSupport>
+            <mustSupport value="hospitalization.dischargeDisposition"></mustSupport>
+            <mustSupport value="period"></mustSupport>
+            <codeFilter>
+               <path value="type"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.666.5.307"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Encounter"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"></profile>
+            <mustSupport value="type"></mustSupport>
+            <codeFilter>
+               <path value="type"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1003"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Encounter"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"></profile>
+            <mustSupport value="type"></mustSupport>
+            <mustSupport value="period"></mustSupport>
+            <codeFilter>
+               <path value="type"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1003"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <code>
+                  <system value="http://loinc.org"></system>
+                  <code value="45755-6"></code>
+                  <display value="Hospice care [Minimum Data Set]"></display>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation"></profile>
+            <mustSupport value="code"></mustSupport>
+            <mustSupport value="value"></mustSupport>
+            <mustSupport value="effective"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <code>
+                  <system value="http://loinc.org"></system>
+                  <code value="45755-6"></code>
+                  <display value="Hospice care [Minimum Data Set]"></display>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="ServiceRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-servicerequest"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1584"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="ServiceRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-servicerequest"></profile>
+            <mustSupport value="code"></mustSupport>
+            <mustSupport value="authoredOn"></mustSupport>
+            <mustSupport value="authoredOn.value"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1584"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Procedure"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-procedure"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1584"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Procedure"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-procedure"></profile>
+            <mustSupport value="code"></mustSupport>
+            <mustSupport value="performed"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1584"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-condition"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1165"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <code>
+                  <system value="http://loinc.org"></system>
+                  <code value="71007-9"></code>
+                  <display value="Functional Assessment of Chronic Illness Therapy - Palliative Care Questionnaire (FACIT-Pal)"></display>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation"></profile>
+            <mustSupport value="code"></mustSupport>
+            <mustSupport value="effective"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <code>
+                  <system value="http://loinc.org"></system>
+                  <code value="71007-9"></code>
+                  <display value="Functional Assessment of Chronic Illness Therapy - Palliative Care Questionnaire (FACIT-Pal)"></display>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-condition"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1167"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Encounter"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"></profile>
+            <mustSupport value="type"></mustSupport>
+            <codeFilter>
+               <path value="type"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.101.12.1090"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Encounter"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"></profile>
+            <mustSupport value="type"></mustSupport>
+            <mustSupport value="period"></mustSupport>
+            <codeFilter>
+               <path value="type"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.101.12.1090"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Procedure"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-procedure"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.198.12.1135"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Procedure"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-procedure"></profile>
+            <mustSupport value="code"></mustSupport>
+            <mustSupport value="performed"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.198.12.1135"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Condition"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-condition"></profile>
+            <mustSupport value="code"></mustSupport>
+            <mustSupport value="clinicalStatus"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1623"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Encounter"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"></profile>
+            <mustSupport value="type"></mustSupport>
+            <mustSupport value="period"></mustSupport>
+            <mustSupport value="class"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <codeFilter>
+               <path value="type"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Patient"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"></profile>
+            <mustSupport value="url"></mustSupport>
+            <mustSupport value="extension"></mustSupport>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Patient"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"></profile>
+            <mustSupport value="url"></mustSupport>
+            <mustSupport value="extension"></mustSupport>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="ServiceRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-servicenotrequested"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1527"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="ServiceRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-servicenotrequested"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1527"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="ServiceRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-servicenotrequested"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1525"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="ServiceRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-servicenotrequested"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1525"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="ServiceRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-servicenotrequested"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1528"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="ServiceRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-servicenotrequested"></profile>
+            <mustSupport value="code"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1528"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Encounter"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"></profile>
+            <mustSupport value="type"></mustSupport>
+            <mustSupport value="period"></mustSupport>
+            <mustSupport value="class"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <codeFilter>
+               <path value="type"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="MedicationRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-mednotrequested"></profile>
+            <mustSupport value="medication"></mustSupport>
+            <codeFilter>
+               <path value="medication"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1561"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="MedicationRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-mednotrequested"></profile>
+            <mustSupport value="medication"></mustSupport>
+            <codeFilter>
+               <path value="medication"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1561"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="MedicationRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-mednotrequested"></profile>
+            <mustSupport value="medication"></mustSupport>
+            <codeFilter>
+               <path value="medication"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1562"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="MedicationRequest"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-mednotrequested"></profile>
+            <mustSupport value="medication"></mustSupport>
+            <codeFilter>
+               <path value="medication"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.526.3.1562"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Encounter"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"></profile>
+            <mustSupport value="type"></mustSupport>
+            <mustSupport value="period"></mustSupport>
+            <mustSupport value="class"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <codeFilter>
+               <path value="type"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Observation"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observationnotdone"></profile>
+            <mustSupport value="code"></mustSupport>
+            <mustSupport value="effective"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <mustSupport value="extension"></mustSupport>
+            <codeFilter>
+               <path value="code"></path>
+               <code>
+                  <system value="http://loinc.org"></system>
+                  <code value="39156-5"></code>
+                  <display value="Body mass index (BMI) [Ratio]"></display>
+               </code>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Encounter"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"></profile>
+            <mustSupport value="type"></mustSupport>
+            <mustSupport value="period"></mustSupport>
+            <mustSupport value="class"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <codeFilter>
+               <path value="type"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Encounter"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"></profile>
+            <mustSupport value="type"></mustSupport>
+            <mustSupport value="period"></mustSupport>
+            <mustSupport value="class"></mustSupport>
+            <mustSupport value="status"></mustSupport>
+            <mustSupport value="status.value"></mustSupport>
+            <codeFilter>
+               <path value="type"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.600.1.1751"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Coverage"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-coverage"></profile>
+            <mustSupport value="type"></mustSupport>
+            <mustSupport value="period"></mustSupport>
+            <codeFilter>
+               <path value="type"></path>
+               <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.3591"></valueSet>
+            </codeFilter>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Patient"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"></profile>
+            <mustSupport value="url"></mustSupport>
+            <mustSupport value="extension"></mustSupport>
+         </dataRequirement>
+         <dataRequirement>
+            <type value="Patient"></type>
+            <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"></profile>
+            <mustSupport value="url"></mustSupport>
+            <mustSupport value="extension"></mustSupport>
+         </dataRequirement>
+      </Library>
+   </contained>
+   <extension id="supplementalDataGuidance" url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-supplementalDataGuidance">
+      <extension url="usage">
+         <valueCodeableConcept>
+            <coding>
+               <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"></system>
+               <code value="supplemental-data"></code>
+               <display value="Supplemental Data"></display>
+            </coding>
+            <text value="Supplemental Data Guidance"></text>
+         </valueCodeableConcept>
+      </extension>
+   </extension>
+   <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-effectiveDataRequirements">
+      <valueReference>
+         <reference value="#effective-data-requirements"></reference>
+      </valueReference>
+   </extension>
+   <url value="http://ecqi.healthit.gov/ecqms/Measure/PCSBMIScreenAndFollowUpFHIR"></url>
+   <identifier>
+      <use value="usual"></use>
+      <type>
+         <coding>
+            <system value="http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type"></system>
+            <code value="short-name"></code>
+         </coding>
+      </type>
+      <system value="https://madie.cms.gov/measure/shortName"></system>
+      <value value="CMS69FHIR"></value>
+   </identifier>
+   <identifier>
+      <use value="official"></use>
+      <type>
+         <coding>
+            <system value="http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type"></system>
+            <code value="version-independent"></code>
+         </coding>
+      </type>
+      <system value="urn:ietf:rfc:3986"></system>
+      <value value="urn:uuid:5d929142-0109-4dc3-97b5-27c9296b3cf9"></value>
+   </identifier>
+   <identifier>
+      <use value="official"></use>
+      <type>
+         <coding>
+            <system value="http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type"></system>
+            <code value="version-specific"></code>
+         </coding>
+      </type>
+      <system value="urn:ietf:rfc:3986"></system>
+      <value value="urn:uuid:1039b9aa-b444-4112-ad53-1a86e16f9fcc"></value>
+   </identifier>
+   <identifier>
+      <use value="official"></use>
+      <type>
+         <coding>
+            <system value="http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type"></system>
+            <code value="publisher"></code>
+         </coding>
+      </type>
+      <system value="https://madie.cms.gov/measure/cmsId"></system>
+      <value value="69FHIR"></value>
+      <assigner>
+         <display value="CMS"></display>
+      </assigner>
+   </identifier>
+   <version value="0.2.000"></version>
+   <name value="PCSBMIScreenAndFollowUpFHIR"></name>
+   <title value="Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up PlanFHIR"></title>
+   <status value="active"></status>
+   <experimental value="false"></experimental>
+   <date value="2023-08-30T17:03:11+00:00"></date>
+   <publisher value="Centers for Medicare &amp; Medicaid Services (CMS)"></publisher>
+   <contact>
+      <telecom>
+         <system value="url"></system>
+         <value value="https://www.cms.gov/"></value>
+      </telecom>
+   </contact>
+   <description value="Percentage of patients aged 18 years and older with a BMI documented during the current encounter or during the measurement period AND who had a follow-up plan documented if BMI was outside of normal parameters"></description>
+   <useContext>
+      <code>
+         <system value="http://terminology.hl7.org/CodeSystem/usage-context-type"></system>
+         <code value="program"></code>
+      </code>
+      <valueCodeableConcept>
+         <coding>
+            <system value="http://hl7.org/fhir/us/cqfmeasures/CodeSystem/quality-programs"></system>
+            <code value="ep-ec"></code>
+            <display value="EP/EC"></display>
+         </coding>
+      </valueCodeableConcept>
+   </useContext>
+   <purpose value="UNKNOWN"></purpose>
+   <usage value="BMI Measurement Guidance:
+-  Height and Weight - An eligible professional or their staff is required to measure both height and weight. Both height and weight must be measured during the measurement period. Self-reported values cannot be used.
+-  The BMI may be documented in the medical record of the provider or in outside medical records obtained by the provider. 
+-  If the documented BMI is outside of normal parameters, then a follow-up plan is documented during the encounter or during the measurement period. 
+-  If more than one BMI is reported during the measurement period, and any of the documented BMI assessments is outside of normal parameters, documentation of an appropriate follow-up plan will be used to determine if performance has been met. 
+-  Review the exclusions and exceptions criteria to determine those patients that BMI measurement may not be appropriate or necessary. 
+
+Follow-Up Plan Guidance: 
+The documented follow-up plan must be based on the documented BMI, outside of normal parameters, example: &quot;Patient referred to nutrition counseling for BMI above or below normal parameters.&quot; See the Definition section for examples of follow-up plan treatments.
+
+Variation has been noted in studies exploring optimal BMI ranges for the elderly (see Donini et al., 2012; Holme &amp; Tonstad, 2015; Diehr et al., 2008). Notably however, all these studies have arrived at ranges that differ from the standard range for ages 18 and older, which is &gt;= 18.5 and &lt; 25 kg/m2. For instance, both Donini et al. and Holme and Tonstad reported findings that suggest that higher BMI (higher than the upper end of 25 kg/m2) in the elderly may be beneficial. Similarly, worse outcomes have been associated with being underweight (at a threshold higher than 18.5 kg/m2) at age 65 (Diehr et al., 2008). Because of optimal BMI range variation recommendations from these studies, no specific optimal BMI range for the elderly is used. However, it may be appropriate to exempt certain patients from a follow-up plan by applying the exception criteria. See Denominator Exception section for examples.
+
+This eCQM is a patient-based measure. This measure is to be reported a minimum of once per measurement period for patients seen during the measurement period.
+
+This measure may be reported by eligible professionals who perform the quality actions described in the measure based on the services provided at the time of the qualifying encounter and the measure-specific denominator coding. 
+
+Telehealth encounters are not eligible for this measure because the measure requires a clinical action that cannot be conducted via telehealth.
+
+This FHIR-based measure has been derived from the QDM-based measure: CMS69v12.  
+Please refer to the HL7 QI-Core Implementation Guide (http://hl7.org/fhir/us/qicore/index.html) for more information on QI-Core and mapping recommendations from QDM to QI-Core 4.1.1 (http://hl7.org/fhir/us/qicore/qdm-to-qicore.html)."></usage>
+   <copyright value="Limited proprietary coding is contained in the measure specifications for convenience. Users of the proprietary code sets should obtain all necessary licenses from the owners of these code sets. 
+
+CPT(R) contained in the Measure specifications is copyright 2004-2022 American Medical Association. LOINC(R) is copyright 2004-2022 Regenstrief Institute, Inc. This material contains SNOMED Clinical Terms(R) (SNOMED CT[R]) copyright 2004-2022 International Health Terminology Standards Development Organisation. ICD-10 is copyright 2022 World Health Organization. All Rights Reserved."></copyright>
+   <approvalDate value="2023-08-30"></approvalDate>
+   <lastReviewDate value="2023-08-30"></lastReviewDate>
+   <effectivePeriod>
+      <start value="2024-01-01"></start>
+      <end value="2024-12-31"></end>
+   </effectivePeriod>
+   <author>
+      <name value="Mathematica"></name>
+      <telecom>
+         <system value="url"></system>
+         <value value="https://www.mathematica.org/"></value>
+      </telecom>
+   </author>
+   <library value="http://ecqi.healthit.gov/ecqms/Library/PCSBMIScreenAndFollowUpFHIR"></library>
+   <disclaimer value="These performance measures are not clinical guidelines and do not establish a standard of medical care, and have not been tested for all potential applications.
+
+THE MEASURES AND SPECIFICATIONS ARE PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND.
+
+Due to technical limitations, registered trademarks are indicated by (R) or [R] and unregistered trademarks are indicated by (TM) or [TM]."></disclaimer>
+   <rationale value="BMI Above Normal Parameters
+
+“Obesity is a chronic, multifactorial disease with complex psychological, environmental (social and cultural), genetic, physiologic, metabolic and behavioral causes and consequences. The prevalence of overweight and obese people is increasing worldwide at an alarming rate in both developing and developed countries. Environmental and behavioral changes brought about by economic development, modernization and urbanization have been linked to the rise in global obesity. The health consequences are becoming apparent” (Fitch et al., 2013).
+
+More than a third of U.S. adults have a body mass index [BMI] &gt;= 30 kg/m2 and are at increased risk for diabetes, cardiovascular disease (CVD), and obstructive sleep apnea (Flegal et al., 2012; Ogden et al., 2015; Dong et al., 2020). Hales et al. (2017), reported that the prevalence of obesity among adults and youth in the United States was 39.8 percent and 18.5 percent respectively, from 2015-2016. Furthermore, the prevalence of obesity in adults increased to 42.4 percent in 2018, with the highest percentage among adults in the 40-59 age bracket compared with other age groups (Hales et al., 2020). Hales et al. (2020) also disaggregated the data according to race/ethnicity and noted that obesity prevalence was higher among non-Hispanic Black adults and Hispanic adults when compared with other races and ethnicities. Obesity prevalence was lowest among non-Hispanic Asian men and women. Among men, obesity prevalence was higher among Hispanic men compared with non-Hispanic Black men and non-Hispanic White men. Among women, the prevalence among non-Hispanic Black women was 56.9 percent, which was higher than all other race/ethnicities. In general, the prevalence of obesity in the U.S. remains higher than the Healthy People 2020 goals of 30.5 percent among adults (Hales et al., 2020). 
+
+BMI continues to be a common and reasonably reliable measurement to identify overweight and obese adults who may be at an increased risk for future morbidity. Although good quality evidence supports obtaining a BMI, it is important to recognize it is not a perfect measurement. For example, BMI and its associated disease and mortality risk appear to vary among ethnic subgroups. Black/African Americans appear to have the lowest mortality risk at a BMI of 26.2-28.5 kg/m2 in Black women and 27.1-30.2 kg/m2 in Black men. In contrast, Asian populations may experience lowest mortality rates starting at a BMI of 23 to 24 kg/m2. The correlation between BMI and diabetes risk also varies by ethnicity (LeBlanc et al., 2011). BMI is not a direct measure of adiposity and as a consequence, it can over or underestimate adiposity. However, overall, BMI is a derived value that correlates well with total body fat and markers of secondary complications, e.g., hypertension and dyslipidemia (Barlow &amp; the Expert Committee, 2007).
+
+It is important to enhance beneficiary access to appropriate treatments for obesity, which could result in decreased healthcare costs and lower obesity rates. Behavioral weight management treatment has been identified as an effective first-line treatment for obesity with an average initial weight loss of 8-10 percent. This percentage weight loss is associated with a significant risk reduction for diabetes and CVD (Wadden, Butryn &amp; Wilson, 2007). Evidence also shows that when provided 14 or more high-intensity behavioral intervention sessions of face-to-face individual or group treatment across 6 months, participants lose up to 8 percent of their weight during that time and experience improvements in heart disease risk factors and quality of life (Wadden, Tronieri, &amp; Butryn, 2020). There is also evidence that high-intensity behavioral counseling is effective, whether delivered in-person, by phone, or electronically (Tronieri et al., 2019). Moreover, intensive behavioral therapy for obesity provided by registered dietitian nutritionists for 6-12 months shows significant mean weight loss of up to 10 percent of body weight, maintained over one year’s time (Raynor &amp; Champagne, 2016). Despite the evidence that supports weight management counseling, the rate of use in primary care for patients with obesity decreased by 10 percent from 39.9 percent in 1995-1996 to 29.9 percent in 2007-2008 (Kraschnewski et al., 2013). Weight management counseling during primary care visits further declined from 33 percent to 21 percent between 2008-2009 and 2012-2013. This suggests that obesity management in primary care remains suboptimal (Fitzpatrick &amp; Stevens, 2017).
+
+Therefore, screening for BMI and follow-up is critical and will help in reaching the quality goals of population health and cost reduction. However, due to concerns for other underlying conditions (such as bone health) or nutrition-related deficiencies, providers are cautioned to use their best clinical judgment when considering weight management programs for overweight patients, especially the elderly (National Heart, Lung, and Blood Institute [NHLBI] Obesity Education Initiative, 1998).
+
+BMI Below Normal Parameters 
+
+On the other end of the body weight spectrum is underweight (BMI &lt; 18.5 kg/m2), which is also detrimental to population health. When compared to normal weight individuals (BMI 18.5-25 kg/m2), underweight individuals have significantly higher death rates with a Hazard Ratio of 2.27 and 95 percent confidence intervals = 1.78, 2.90 (Borrell &amp; Samuel, 2014). Individuals with a BMI &lt; 18.5 kg/m2 have been shown to be at a higher risk for adverse events, postoperative infection, and/or mortality following a surgical procedure (Katakam, et al., 2021; Ottesen et al., 2020; Ottesen et al., 2022; Rudasill et al., 2021). BMI below normal parameters is a risk factor for developing severe illness from respiratory infections such as influenza and COVID-19 (Moser et al., 2019; Ye et al., 2021). BMI below normal parameters can negatively impact both male and female fertility (Boutari et al., 2020; Guo et al., 2019).
+
+Poor nutrition or underlying health conditions can result in underweight (Fryar &amp; Ogden, 2012). The National Health and Nutrition Examination Survey (NHANES) results from 2007-2010 indicate that women are more likely to be underweight than men (Centers for Disease Control and Prevention, 2012). However, all patients should be equally screened for underweight and followed up with nutritional counseling or another clinically appropriate intervention to reduce mortality and morbidity associated with underweight."></rationale>
+   <clinicalRecommendationStatement value="All adults should be screened annually using a BMI measurement. BMI measurements &gt;= 25 kg/m2 should be used to initiate further evaluation of overweight or obesity after taking into account age, gender, ethnicity, fluid status, and muscularity; therefore, clinical evaluation and judgment must be used when BMI is employed as the anthropometric indicator of excess adiposity, particularly in athletes and those with sarcopenia (Garvey et al., 2016) (Grade A).
+
+Overweight and Underweight Categories:
+Underweight &lt; 18.5; Normal weight 18.5-24.9; Overweight 25-29.9; Obese class I 30-34.9; Obese class II 35-39.9; Obese class III &gt;= 40 (Garvey et al., 2016).
+
+BMI cutoff point value of &gt;= 23 kg/m2 should be used in the screening and confirmation of excess adiposity in Asian adults (Garvey et al., 2016) (Grade B).  
+
+Lifestyle/behavioral therapy for overweight and obesity should include behavioral interventions that enhance adherence to prescriptions for a reduced-calorie meal plan and increased physical activity (behavioral interventions can include: self-monitoring of weight, food intake, and physical activity; clear and reasonable goal-setting; education pertaining to obesity, nutrition, and physical activity; face-to-face and group meetings; stimulus control; systematic approaches for problem solving; stress reduction; cognitive restructuring [i.e., cognitive behavioral therapy], motivational interviewing; behavioral contracting; psychological counseling; and mobilization of social support structures) (Garvey et al., 2016) (Grade A).
+
+Behavioral lifestyle intervention should be tailored to a patient's ethnic, cultural, socioeconomic, and educational background (Garvey et al., 2016) (Grade B).
+
+The U.S. Preventive Services Task Force (USPSTF) recommends that clinicians offer or refer adults with a BMI of 30 kg/m2 or higher to intensive, multicomponent behavioral interventions (USPSTF, 2018) (Grade B).
+
+Interventions:
+- Effective intensive behavioral interventions were designed to help participants achieve or maintain weight loss of at least five percent through a combination of dietary changes and increased physical activity
+- Most interventions lasted for one to two years, and the majority had at least 12 sessions in the first year 
+- Most behavioral interventions focused on problem solving to identify barriers, self-monitoring of weight, peer support, and relapse prevention
+- Interventions also provided tools to support weight loss or weight loss maintenance (e.g., pedometers, food scales, or exercise videos) (USPSTF, 2018)
+
+Nutritional safety for the elderly should be considered when recommending weight reduction. &quot;A clinical decision to forego obesity treatment in older adults should be guided by an evaluation of the potential benefits of weight reduction for day-to-day functioning and reduction of the risk of future cardiovascular events, as well as the patient's motivation for weight reduction. Care must be taken to ensure that any weight reduction program minimizes the likelihood of adverse effects on bone health or other aspects of nutritional status&quot; (NHLBI Obesity Education Initiative, 1998) (Evidence Category D). In addition, weight reduction prescriptions in older persons should be accompanied by proper nutritional counseling and regular body weight monitoring (NHLBI Obesity Education Initiative, 1998).
+
+The possibility that a standard approach to weight loss will work differently in diverse patient populations must be considered when setting expectations about treatment outcomes (NHLBI Obesity Education Initiative, 1998) (Evidence Category B)."></clinicalRecommendationStatement>
+   <group id="643465ae7c12bd4a0fdf28c8">
+      <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-scoring">
+         <valueCodeableConcept>
+            <coding>
+               <system value="http://terminology.hl7.org/CodeSystem/measure-scoring"></system>
+               <code value="proportion"></code>
+               <display value="Proportion"></display>
+            </coding>
+         </valueCodeableConcept>
+      </extension>
+      <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-populationBasis">
+         <valueCode value="boolean"></valueCode>
+      </extension>
+      <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-type">
+         <valueCodeableConcept>
+            <coding>
+               <system value="http://terminology.hl7.org/CodeSystem/measure-type"></system>
+               <code value="process"></code>
+               <display value="Process"></display>
+            </coding>
+         </valueCodeableConcept>
+      </extension>
+      <description value="Percentage of patients aged 18 years and older with a BMI documented during the current encounter or during the measurement period AND who had a follow-up plan documented if BMI was outside of normal parameters"></description>
+      <population id="28070159-E583-468D-A6EB-3A47F9B54660">
+         <code>
+            <coding>
+               <system value="http://terminology.hl7.org/CodeSystem/measure-population"></system>
+               <code value="initial-population"></code>
+               <display value="Initial Population"></display>
+            </coding>
+         </code>
+         <description value="All patients aged 18 and older on the date of the encounter with at least one qualifying encounter during the measurement period"></description>
+         <criteria>
+            <language value="text/cql-identifier"></language>
+            <expression value="Initial Population"></expression>
+         </criteria>
+      </population>
+      <population id="13A65BC7-CCB8-4189-869C-6C8E46AD5524">
+         <code>
+            <coding>
+               <system value="http://terminology.hl7.org/CodeSystem/measure-population"></system>
+               <code value="denominator"></code>
+               <display value="Denominator"></display>
+            </coding>
+         </code>
+         <description value="Equals Initial Population"></description>
+         <criteria>
+            <language value="text/cql-identifier"></language>
+            <expression value="Denominator"></expression>
+         </criteria>
+      </population>
+      <population id="58F3DCCC-F1A5-4B4B-AC6D-320EDC5BF9D7">
+         <code>
+            <coding>
+               <system value="http://terminology.hl7.org/CodeSystem/measure-population"></system>
+               <code value="denominator-exclusion"></code>
+               <display value="Denominator Exclusion"></display>
+            </coding>
+         </code>
+         <description value="Patients who are pregnant at any time during the measurement period.
+
+Patients receiving palliative or hospice care at any time during the measurement period."></description>
+         <criteria>
+            <language value="text/cql-identifier"></language>
+            <expression value="Denominator Exclusions"></expression>
+         </criteria>
+      </population>
+      <population id="CD0AB099-6BB7-417D-A627-710CA99C825D">
+         <code>
+            <coding>
+               <system value="http://terminology.hl7.org/CodeSystem/measure-population"></system>
+               <code value="numerator"></code>
+               <display value="Numerator"></display>
+            </coding>
+         </code>
+         <description value="Patients with a documented BMI during the encounter or during the measurement period, AND when the BMI is outside of normal parameters, a follow-up plan is documented during the encounter or during the measurement period"></description>
+         <criteria>
+            <language value="text/cql-identifier"></language>
+            <expression value="Numerator"></expression>
+         </criteria>
+      </population>
+      <population id="c8fae867-4f89-4c58-a6bf-c0d40643babe">
+         <code>
+            <coding>
+               <system value="http://terminology.hl7.org/CodeSystem/measure-population"></system>
+               <code value="numerator-exclusion"></code>
+               <display value="Numerator Exclusion"></display>
+            </coding>
+         </code>
+         <criteria>
+            <language value="text/cql-identifier"></language>
+         </criteria>
+      </population>
+      <population id="50B4FD1B-95FC-404D-BA83-1F54ADD2F00F">
+         <code>
+            <coding>
+               <system value="http://terminology.hl7.org/CodeSystem/measure-population"></system>
+               <code value="denominator-exception"></code>
+               <display value="Denominator Exception"></display>
+            </coding>
+         </code>
+         <description value="Patients with a documented medical reason for not documenting BMI or for not documenting a follow-up plan for a BMI outside normal parameters (e.g., elderly patients 65 years of age or older for whom weight reduction/weight gain would complicate other underlying health conditions such as illness or physical disability, mental illness, dementia, confusion, or nutritional deficiency such as vitamin/mineral deficiency; patients in an urgent or emergent medical situation where time is of the essence and to delay treatment would jeopardize the patient’s health status).
+
+Patients who refuse measurement of height and/or weight."></description>
+         <criteria>
+            <language value="text/cql-identifier"></language>
+            <expression value="Denominator Exceptions"></expression>
+         </criteria>
+      </population>
+   </group>
+   <supplementalData id="sde-ethnicity">
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"></system>
+            <code value="supplemental-data"></code>
+         </coding>
+      </usage>
+      <description value="SDE Ethnicity"></description>
+      <criteria>
+         <language value="text/cql-identifier"></language>
+         <expression value="SDE Ethnicity"></expression>
+      </criteria>
+   </supplementalData>
+   <supplementalData id="sde-payer">
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"></system>
+            <code value="supplemental-data"></code>
+         </coding>
+      </usage>
+      <description value="SDE Payer"></description>
+      <criteria>
+         <language value="text/cql-identifier"></language>
+         <expression value="SDE Payer"></expression>
+      </criteria>
+   </supplementalData>
+   <supplementalData id="sde-race">
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"></system>
+            <code value="supplemental-data"></code>
+         </coding>
+      </usage>
+      <description value="SDE Race"></description>
+      <criteria>
+         <language value="text/cql-identifier"></language>
+         <expression value="SDE Race"></expression>
+      </criteria>
+   </supplementalData>
+   <supplementalData id="sde-sex">
+      <usage>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/measure-data-usage"></system>
+            <code value="supplemental-data"></code>
+         </coding>
+      </usage>
+      <description value="SDE Sex"></description>
+      <criteria>
+         <language value="text/cql-identifier"></language>
+         <expression value="SDE Sex"></expression>
+      </criteria>
+   </supplementalData>
+</Measure>
